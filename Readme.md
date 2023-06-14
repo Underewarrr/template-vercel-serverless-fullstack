@@ -67,15 +67,10 @@ Typescript, Javascript
 - /user
   - /login
   - /register
-  - /panel
-    - /instagram
-      - /list
-  - /balance
-    - /add
+
 ## Rotas Back-end
 - /api
   - /user
     - /login
     - /register
-    - /balance
-      - /add
+
