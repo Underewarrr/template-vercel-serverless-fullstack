@@ -31,8 +31,20 @@
 ## Como rodar
 ### (Vercel-Pro-Way)
 Fork o respositorio, entre no site da [vercel](https://vercel.com/) e importe o projeto, pronto agora é só esperar a vervel criar o dominio e colocar o app online!
+### (Vercel-Config)
+Após importar o projeto tudo feito, agora espere o build, enquanto isso podemos configurar nossas variaveis de ambiente direamente na vercel.
+Infelizmente a vercel não importa diretamente do .env é necessario adicionar na interface do proprio website da vercel.
+```
+JWT_SECRET = JWT_SECRET
+DB_USER = 
+DB_PASS = 
+DB_NAME =
+DB_HOST = www.db4free.net
+REACT_APP_API_PORT = 3000
+```
 
 
+## AuthSystem
 O sistema de proteção de rotas funciona com uma hoc [(High Order Component)](https://github.com/Underewarrr/template-vercel-serverless-fullstack/blob/master/pages/hoc/withAuth.tsx), como esse component é recarregado apenas nas rotas que o usuario tem permissão então algumas verificações e dados podem ser salvos e usados nesse component quando necessario!
 Para proteger uma rota inicie o component `<ProtectedRoute />`
 
