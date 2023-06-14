@@ -11,7 +11,7 @@ export default function Index() {
       <Alert variant="success">
       <Alert.Heading>Hey, nice to see you</Alert.Heading>
       <p>
-      You template is working fine! Lets start codeing
+      Your template is working fine! Lets start codeing
       </p>
       <hr />
       <p className="mb-0">
