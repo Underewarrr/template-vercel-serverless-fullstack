@@ -15,14 +15,14 @@ const Header = () => {
   return (
     <Navbar collapseOnSelect expand="lg" bg="dark" variant="dark">
       <Container>
-        <Navbar.Brand href="/">Poke X Adventure</Navbar.Brand>
+        <Navbar.Brand href="/">FullStack Templat</Navbar.Brand>
         <Navbar.Toggle aria-controls="responsive-navbar-nav" />
         <Navbar.Collapse id="responsive-navbar-nav">
           <Nav className="me-auto">
             <Nav.Link href="/">News</Nav.Link>
             <Nav.Link href="/user/panel">Panel</Nav.Link>
             <NavDropdown title="Account" id="collasible-nav-dropdown">
-              <NavDropdown.Item href="/user/panel/characters">Characters</NavDropdown.Item>
+              <NavDropdown.Item href="#">Action</NavDropdown.Item>
                <NavDropdown.Item href="#action/3.2">
                 Another action
               </NavDropdown.Item>
