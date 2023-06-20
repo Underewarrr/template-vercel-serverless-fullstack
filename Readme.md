@@ -44,7 +44,7 @@ DB_HOST = www.db4free.net
 REACT_APP_API_PORT = 3000
 ```
 ### NodeConfig (NPM)
-Lembre-se usando o ORM(squelize) é necessario antes rodar as migrations e seeders para poular a sua database.
+Lembre-se usando o ORM(squelize) é necessario antes rodar as migrations e seeders para popular a sua database.
 com o comando `db:reset`
 ![image](https://github.com/Underewarrr/template-vercel-serverless-fullstack/assets/74227915/b6435c71-2932-4146-ab7a-4a0ebb2a3126)
 Para configurar o usuario do Sequelize utilize o .env.example do projeto.
