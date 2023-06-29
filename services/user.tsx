@@ -1,5 +1,5 @@
 // import userModel from "../database/models/User";
-import accountModel from "../database/models/Account";
+import accountModel from "../database/models/User";
 import * as JWT from "jsonwebtoken";
 
 const userLogin = async (email: string, password: string) => {
