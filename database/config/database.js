@@ -2,10 +2,10 @@
 Object.defineProperty(exports, "__esModule", { value: true });
 require("dotenv/config");
 const config = {
-    username: process.env.DB_USER || 'db_pxa',
-    database: process.env.DB_NAME || 'db_pxa',
-    password: process.env.DB_PASS || '2t2d3MeFswJ6Jk2w',
-    host: process.env.DB_HOST || '127.0.0.1',
+    username: process.env.DB_USER || 'data_db_user',
+    database: process.env.DB_NAME || 'data_db',
+    password: process.env.DB_PASS || '525240rA@',
+    host: process.env.DB_HOST || 'www.db4free.net',
     port: Number(process.env.DB_PORT) || 3306,
     dialect: 'mysql',
     dialectOptions: {
