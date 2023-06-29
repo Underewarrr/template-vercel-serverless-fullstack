@@ -1,13 +1,17 @@
+import mysql2 from 'mysql2'; // Fix : problema ao lançar mysql no webpack vercel serverless
+
+
 "use strict";
 Object.defineProperty(exports, "__esModule", { value: true });
 require("dotenv/config");
 const config = {
-    username: process.env.DB_USER || 'data_db_user',
-    database: process.env.DB_NAME || 'data_db',
-    password: process.env.DB_PASS || '525240rA@',
-    host: process.env.DB_HOST || 'www.db4free.net',
+    username: process.env.DB_USER || 'opentibiacourse',
+    database: process.env.DB_NAME || 'opentibiacourse',
+    password: process.env.DB_PASS || 'dbrafhaeloliveirarA@',
+    host: process.env.DB_HOST || 'db4free.net',
     port: Number(process.env.DB_PORT) || 3306,
     dialect: 'mysql',
+    dialectModule: mysql2, // Fix : problema ao lançar mysql no webpack vercel serverless
     dialectOptions: {
         timezone: 'Z',
     },
