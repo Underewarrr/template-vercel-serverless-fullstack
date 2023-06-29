@@ -63,15 +63,7 @@ export default function Index() {
             placeholder="Example@email.com"
           />
         </Form.Group>
-        <Form.Group>
-          <Form.Label>name : </Form.Label>
-          <Form.Control
-            onChange={({ target: { value } }) => setname(value)}
-            name="name"
-            type="name"
-            placeholder="account name"
-          />
-        </Form.Group>
+    
         <Form.Group>
           <Form.Label>Password : </Form.Label>
           <Form.Control

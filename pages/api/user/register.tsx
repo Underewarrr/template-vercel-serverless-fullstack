@@ -15,10 +15,9 @@ export default async function userHandler(
 }
 
 const register = async (req: NextApiRequest, res: NextApiResponse) => {
-  const { name, email, password } = req.body;
+  const { email, password } = req.body;
 
   const { data, type, message, code } = await userService.userRegister(
-    name,
     email,
     password
   );
